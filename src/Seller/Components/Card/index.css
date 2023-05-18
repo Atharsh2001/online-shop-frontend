@@ -1,0 +1,23 @@
+.card-container{
+    width: 300px;
+    overflow: hidden;
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+}
+
+.card-content{
+    margin: 1rem;
+}
+.image-container img{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+.card-btn{
+    display: flex;
+    justify-content: center;
+}

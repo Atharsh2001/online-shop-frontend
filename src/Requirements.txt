@@ -1,0 +1,3 @@
+npm i gh-pages --save-dev   // Git pages
+npm i antd --save // antd ui
+npm install --save @ant-design/icons  // Antd icons

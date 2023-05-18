@@ -1,0 +1,15 @@
+.Header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.Thumbnail {
+    margin-left: 2rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.15)
+}
+
