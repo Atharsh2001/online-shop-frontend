@@ -1,4 +1,8 @@
+import AppRoutes from "../AppRoutes";
+
 function Body() {
-    return <div>Body</div>;
+    return <div>
+        <AppRoutes/>
+    </div>;
 }
 export default Body;

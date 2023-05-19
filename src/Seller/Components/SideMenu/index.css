@@ -1,7 +1,10 @@
 .sideMenu{
-    margin-top: 13px;
+    height: 49rem;
     font-size: 18px;
     padding-right: 1rem;
     padding-left: 1rem;
     width: 15rem;
+}
+.Side-menu{
+    padding-top: 10px;
 }
