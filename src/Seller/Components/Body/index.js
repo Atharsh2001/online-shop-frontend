@@ -1,7 +1,7 @@
 import AppRoutes from "../AppRoutes";
-
+import "./index.css"
 function Body() {
-    return <div>
+    return <div className="dashBoard-body">
         <AppRoutes/>
     </div>;
 }

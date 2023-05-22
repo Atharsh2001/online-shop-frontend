@@ -1,12 +1,13 @@
 .card-container{
-    width: 300px;
+    width: 450px;
     overflow: hidden;
     transition: 0.3s;
-    animation: ease-in;
+    animation: ease-in-out;
+    border: 1px solid rgba(0,0,0,0.15);
 }
 
 .card-container:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 .card-content{
@@ -19,5 +20,23 @@
 }
 .card-btn{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    outline: none;
+}
+
+.card-body{
+    text-align: justify;
+    height: 7rem;
+}
+.btn{
+    border: none;
+    background-color: white;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+.btn-antd{
+    font-size: 22px;
+}
+.btn-antd:hover{
+    color: dodgerblue;
 }

@@ -7,28 +7,27 @@ function SideMenu() {
     const navigate = useNavigate()
     return <div className="Side-menu">
         <Menu
-            mode="vertical"
             onClick={(item)=>{
                 navigate(item.key)
             }}
             items={[
             {
                 label: "Dashboard",
-                key: "/seller/dashboard",
-                icon: <AppstoreOutlined/>
+                key: "/",
+                icon: <AppstoreOutlined style={{fontSize:20}}/>
 
             },
             {
                 label: "My Products",
                 key: "/seller/products",
-                icon: <ShoppingCartOutlined />
+                icon: <ShoppingCartOutlined style={{fontSize:20}}/>
             },
             {
                 label: "Account",
                 key: "/seller/account",
-                icon: <UserOutlined/>
+                icon: <UserOutlined style={{fontSize:20}}/>
             }
-        ]} className="sideMenu" />
+        ]} className="sideMenuItems" />
     </div>;
 }
 export default SideMenu;

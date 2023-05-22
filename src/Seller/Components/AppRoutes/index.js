@@ -6,7 +6,7 @@ import MyAccountPage from "../../DashBoard/Pages/MyAccount";
 function AppRoutes() {
     return (
         <Routes>
-            <Route path="/seller/dashboard" element={<DashBoardContent/>}></Route>
+            <Route path="/" element={<DashBoardContent/>}></Route>
             <Route path="/seller/products" element={<MyProductPage/>}></Route>
             <Route path="/seller/account" element={<MyAccountPage/>}></Route>
         </Routes>
