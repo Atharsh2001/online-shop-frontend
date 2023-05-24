@@ -3,11 +3,10 @@
     font-size: 18px;
     padding-right: 1rem;
     padding-left: 1rem;
+    padding-top: 1rem;
     width: 15rem;
-    overflow: hidden;
 }
 .Side-menu{
-    padding-top: 10px;
     overflow: hidden;
     position: fixed;
 }

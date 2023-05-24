@@ -1,6 +1,5 @@
-import {Space} from 'antd';
 import './index.css';
-import {DeleteOutlined, EditOutlined, SettingOutlined} from "@ant-design/icons";
+import {DeleteTwoTone, EditTwoTone, SettingTwoTone} from "@ant-design/icons";
 
 function Card({ prodName, shortDesc, imgUrl, price }) {
 
@@ -19,13 +18,11 @@ function Card({ prodName, shortDesc, imgUrl, price }) {
                 <div className="card-title">
                     <h4>{price} $</h4>
                 </div>
-                <Space className="card-btn" >
-                    <button className="btn" title="Settings"><SettingOutlined className="btn-antd" /></button>
-                    <button className="btn" title="Edit"><EditOutlined className="btn-antd" /></button>
-                    <button className="btn" title="Delete"><DeleteOutlined className="btn-antd"/></button>
-
-
-                </Space>
+                <div className="card-btn" >
+                    <button className="btn" title="Settings"><SettingTwoTone className="btn-antd" /></button>
+                    <button className="btn" title="Edit"><EditTwoTone className="btn-antd" /></button>
+                    <button className="btn" title="Delete"><DeleteTwoTone className="btn-antd"/></button>
+                </div>
             </div>
         </div>
     );

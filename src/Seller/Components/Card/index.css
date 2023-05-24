@@ -1,13 +1,7 @@
 .card-container{
     width: 450px;
     overflow: hidden;
-    transition: 0.3s;
-    animation: ease-in-out;
     border: 1px solid rgba(0,0,0,0.15);
-}
-
-.card-container:hover{
-    transform: scale(1.01);
 }
 
 .card-content{
@@ -23,6 +17,9 @@
     justify-content: space-between;
     outline: none;
 }
+.btn:hover{
+    background-color: #deeefb;
+}
 
 .card-body{
     text-align: justify;
@@ -33,10 +30,12 @@
     background-color: white;
     transition: all ease-in-out 0.2s;
     cursor: pointer;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+
 }
 .btn-antd{
     font-size: 22px;
 }
-.btn-antd:hover{
-    color: dodgerblue;
-}
+
