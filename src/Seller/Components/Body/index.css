@@ -1,5 +1,6 @@
 .dashBoard-body{
     padding-top: 20px;
-    margin-left: 16rem;
-    width: 100rem;
+    margin-left: 3rem;
+    /*width: 99rem;*/
+    left: 100%;
 }

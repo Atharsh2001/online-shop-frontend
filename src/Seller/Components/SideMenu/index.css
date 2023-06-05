@@ -1,12 +1,38 @@
-.sideMenuItems{
-    height: 49rem;
-    font-size: 18px;
+.sidebar-container{
+    height: 783px;
     padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-top: 1rem;
-    width: 15rem;
+    width: 13rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+
 }
-.Side-menu{
-    overflow: hidden;
-    position: fixed;
+.link{
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: black;
+}
+.sidebar-icon{
+    padding-right: 10px;
+    font-size: 25px;
+}
+.sidebar-label{
+    padding-left: 17px;
+}
+.sidebar-topmenu{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 3px;
+    border-bottom: black;
+}
+.sidebar-topmenu:hover{
+    cursor: pointer;
+}
+.sidebar-menuHeading{
+    padding-left: 28px;
+    font-size: 20px;
 }

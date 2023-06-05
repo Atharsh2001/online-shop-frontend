@@ -1,12 +1,9 @@
 
-.productPath{
-    font-weight: bold;
-}
 .card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 5rem;
     grid-row-gap: 2rem;
     z-index: 100;
 }
@@ -14,4 +11,58 @@
     padding-left: 400px;
     width:39rem;
     height: 39rem;
+}
+
+
+.product-topBar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 80vw;
+    height: 3rem;
+}
+.productPath{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+.productPathBtn{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+.productPathBtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn1{
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+}
+.btn1:is(:hover){
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+        grid-row-gap: 2rem;
+        z-index: 100;
+    }
+    
 }
