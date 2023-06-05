@@ -38,7 +38,7 @@ function SideBarResponsive() {
             <div className="sideBar">
                 <div className="sidebar-topmenu">
                     <FaBars onClick={toogleOpen} style={{fontSize:22}}/>
-                    <h3 className="sidebar-menuHeading" style={{display: isOpen ? "block" : "none"}}>Menu</h3>
+                    <button className="sidebar-menuHeading" style={{display: isOpen ? "block" : "none"}} onClick={toogleOpen}>Menu</button>
                 </div>
                 <div>
                 {
