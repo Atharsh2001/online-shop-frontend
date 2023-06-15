@@ -49,6 +49,7 @@
     height: 300px;
 }
 .card-btn{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     outline: none;

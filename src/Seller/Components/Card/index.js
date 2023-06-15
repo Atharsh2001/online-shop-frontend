@@ -1,6 +1,6 @@
 import './index.css';
 import {DeleteOutlined, EditOutlined, SettingOutlined} from "@ant-design/icons";
-import {Skeleton} from "antd";
+import {Descriptions, Skeleton} from "antd";
 
 function Card({productDetails}) {
     const getStatusColor = (status) => {
@@ -33,19 +33,14 @@ function Card({productDetails}) {
                                 </div>
                                 <div className="text-on-img" style={{backgroundColor:getStatusColor(product.status)}}>{product.status}</div>
                             </div>
-                            <div className="card-content">
-                                <div className="card-title">
-                                    <p>{product.productName}</p>
-                                </div>
-                                <div className="card-body">
-                                    <div className="card-price">
-                                        <h4>{product.price} $</h4>
-                                    </div>
-                                    <div className="card-stock">
-                                        In stock : 5
-                                    </div>
-                                </div>
-
+                            <div className="card-content" style={{fontSize:20}}>
+                                <Descriptions bordered>
+                                    <Descriptions.Item label="Product" span={3}><h3>{product.productName}</h3></Descriptions.Item>
+                                    <Descriptions.Item label="Price" span={3}><h3>
+                                        {product.price+" "}₹</h3>
+                                    </Descriptions.Item>
+                                    <Descriptions.Item label="Stock" span={3}><h3>5</h3></Descriptions.Item>
+                                </Descriptions>
                                 <div className="card-btn" >
                                     <button className="btn" title="Settings"><SettingOutlined className="btn-antd" /></button>
                                     <button className="btn" title="Edit"><EditOutlined className="btn-antd" /></button>
